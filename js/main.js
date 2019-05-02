@@ -26,7 +26,7 @@ const outputHtml = matches => {
     const html = matches.map(match => `
       <div class="card card-body mb-1">
         <h4>${match.name} (${match.abbr}) <span class="text-primary">${match.capital}</span></h4>
-        <small>Lat: ${match.lat} / Long: ${match.long}</small>
+        <small>Lat: ${match.lat} / Long: ${match.lonn}</small>
       </div>
     `
       ).join('');
