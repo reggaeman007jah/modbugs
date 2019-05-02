@@ -1,0 +1,23 @@
+[
+  {
+    "abbr":     "AB",
+    "name":     "Ali Baba",
+    "capital":  "alitown",
+    "lat":      "34364",
+    "lon":      "46784"
+  },
+  {
+    "abbr":     "BC",
+    "name":     "bli Baba",
+    "capital":  "Blitown",
+    "lat":      "34364",
+    "lon":      "46784"
+  },
+  {
+    "abbr":     "DC",
+    "name":     "Dli Baba",
+    "capital":  "Dlitown",
+    "lat":      "34364",
+    "lon":      "46784"
+  }
+]
