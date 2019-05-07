@@ -8,32 +8,33 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>Lookitup</title>
 </head>
+
 <body>
   <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-6 m auto">
-          <h3 class="text center mb-3">
-            <i class="fas fa-flag-usa"></i> C2 Bug Reporter 
-          </h3>
+    <div class="row">
+      <div class="col-md-6 m auto">
+        <h3 class="text center mb-3">
+          <i class="fas fa-flag-usa"></i> C2 Bug Reporter 
+        </h3>
 
-    <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true">
 
           <div class="form-group">
             <input 
               type="text" 
-              id="search" 
+              id="name" 
               name="title"
               class="form-control form-control-lg" 
-              placeholder="title of bug">
+              placeholder="Name the bug">
           </div>
 
           <div class="form-group">
             <input 
               type="text" 
-              id="search" 
+              id="descrption" 
               name="description"
               class="form-control form-control-lg" 
-              placeholder="type of bug">
+              placeholder="Describe the bug">
           </div>
 
           <div class="form-group">
@@ -42,7 +43,16 @@
               id="search" 
               name="confirmedMods"
               class="form-control form-control-lg" 
-              placeholder="confirm mods running at time of error">
+              placeholder="Confirm mods running at time of error">
+          </div>
+
+          <div class="form-group">
+            <input 
+              type="text" 
+              id="replicate" 
+              name="replicate"
+              class="form-control form-control-lg" 
+              placeholder="Can you replicate the bug?">
           </div>
 
           <div class="form-group">
@@ -59,7 +69,7 @@
           </div>
 
           <div class="form-group">
-            <button type="submit">Send</button>
+            <button type="submit">Submit Report</button>
 
         </form>
 
